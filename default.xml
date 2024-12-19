@@ -20,6 +20,11 @@
   <include name="system.xml"/>
   <include name="vendor.xml"/>
 
+  <!-- Phone 1 -->
+  <remote  name="phone1"
+           fetch="https://github.com/kimocoder/manifest"
+           revision="vauxite" />
+  
   <!-- AOSPA -->
   <remote  name="aospa"
            fetch=".."
